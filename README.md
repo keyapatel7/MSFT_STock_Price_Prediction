@@ -137,16 +137,3 @@ The final model performance is evaluated using the following metrics:
 - **Testing**: Extremely poor performance (MSE: 68807.82, MAE: 246.05) due to the model's inability to capture the sharp upward trend.
 - **Monte Carlo Simulation**: Provides a realistic probabilistic forecast starting from the last actual price, offering valuable insights for financial analysis despite the LSTM model's limitations.
 
-## Future Work
-- Improve the LSTM model with early stopping, additional features (e.g., macroeconomic indicators), and a hybrid approach (e.g., LSTM + ARIMA) to better capture trends.
-- Enhance the Monte Carlo simulation with adjusted GBM parameters, longer forecast horizons, and additional risk metrics like CVaR.
-- Add visualizations for cumulative returns or drawdowns to provide deeper financial insights.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
-### Notes
-- **Direct Pasting**: This README is ready to be copied and pasted directly into your GitHub repository's README text editor.
-- **Image Links**: Ensure the referenced images (`train_validation_test_split.png`, `model_predictions_vs_observations_updated.png`, `monte_carlo_simulation_updated.png`, `distribution_of_final_prices.png`) are saved in your repository with the correct file names for the links to work.
-- **Title**: The title `# MSFT_Stock_Price_Prediction` is now included at the top, matching your request.
